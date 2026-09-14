@@ -269,8 +269,11 @@
       <!-- Imagem produto (foto lifestyle real) -->
       <div class="reveal relative max-w-sm mx-auto lg:max-w-none" style="--reveal-delay:.15s">
         <div class="absolute -inset-6 sm:-inset-10 bg-gradient-to-tr from-garuz-gold/25 via-garuz-gold/5 to-transparent rounded-[2rem] blur-2xl"></div>
-        <div class="relative rounded-[1.75rem] p-2 shadow-2xl border border-garuz-ink/10 dark:border-garuz-line bg-white dark:bg-garuz-panel overflow-hidden">
-          <img src="assets/img/hero-lifestyle.jpg" alt="Modelo usando camiseta preta Garuz com estampa Filipenses 4:13, encostado numa parede de concreto" class="w-full h-auto rounded-[1.4rem] object-cover" width="1000" height="1333" loading="eager">
+        <div class="relative rounded-[1.75rem] p-2 shadow-2xl border border-garuz-ink/10 dark:border-garuz-line bg-white dark:bg-garuz-panel">
+          <!-- Wrapper próprio só para recortar a imagem — badges ficam FORA dele para não serem cortados -->
+          <div class="overflow-hidden rounded-[1.4rem]">
+            <img src="assets/img/hero-lifestyle.jpg" alt="Modelo usando camiseta preta Garuz com estampa Filipenses 4:13, encostado numa parede de concreto" class="w-full h-auto object-cover" width="1000" height="1333" loading="eager">
+          </div>
 
           <!-- Selo de oferta flutuante -->
           <div class="absolute -top-4 -left-4 sm:-top-5 sm:-left-5 bg-garuz-gold text-garuz-ink font-display font-800 text-lg leading-none rounded-full w-20 h-20 grid place-items-center rotate-[-8deg] shadow-gold border-4 border-garuz-paper dark:border-garuz-bg">
